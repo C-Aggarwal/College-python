@@ -58,7 +58,7 @@ print(f"After replacing:\n{b}")
 
 print("\n\nSolution 6.\n")
 a = input("Enter 1st string to check if anagrams or not:\n")
-b = input("Enter 2nd string to check if anagram or not")
+b = input("Enter 2nd string to check if anagram or not:\n")
 temp1 = a.lower()
 temp2 = b.lower()
 c={}
@@ -84,6 +84,7 @@ else:
 
 print("\n\nSolution 7.\n")
 a = "Hello! My name is Chirag Aggarwal"
+print(a)
 frequency = {}
 for char in a:
     if char in frequency:
@@ -135,7 +136,7 @@ print(f"Longest word is: {d}")
 # Replace one word with another, Split into words, Join the words using a hypen('-')
 
 print("\n\nSolution 12.\n")
-a = "Hello! My name is Chirag Aggarwal."
+a="Hello! My name is Chirag Aggarwal."
 b=a.upper()
 c=a.lower()
 d=a.swapcase()
